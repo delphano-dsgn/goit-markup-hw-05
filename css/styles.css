@@ -429,6 +429,8 @@ box-shadow:
     margin-bottom: 16px;
     font-weight: 500;
     color: #fff;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
 }
 
 .subscribe-form {
@@ -473,9 +475,9 @@ box-shadow:
     border: none;
     border-radius: 4px;
     padding: 8px 24px;
-    width: 165px;
     height: 40px;
     background-color: #4d5ae5;
+    min-width: 165px;
 
     font-weight: 500;
     font-size: 16px;
@@ -493,6 +495,7 @@ box-shadow:
 
 .subscribe-icon {
     fill: #fff;
+    margin-left: 16px;
 }
 
 /* modal */
@@ -547,6 +550,7 @@ box-shadow:
     transition:
         background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
         border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    padding: 0;
 }
 
 .modal-close-button:hover,
@@ -566,6 +570,8 @@ box-shadow:
 }
 
 .modal-title {
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     color: #2e2f42;
     font-weight: 500;
     margin-bottom: 16px;
@@ -595,13 +601,15 @@ box-shadow:
     border-radius: 4px;
     width: 360px;
     height: 40px;
-    transition:
-        color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-        border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    background-color: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .textarea-input {
     border: 1px solid rgba(46, 47, 66, 0.4);
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
     outline: transparent;
     border-radius: 4px;
     height: 120px;
@@ -627,11 +635,12 @@ box-shadow:
 
 .modal-input::placeholder,
 .modal-label {
+    color: #8e8f99;
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color: rgba(46, 47, 66, 0.4);
+    margin-bottom: 4px;
 }
 
 .modal-input-icon-wrapper {
