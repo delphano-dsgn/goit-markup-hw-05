@@ -684,12 +684,12 @@ box-shadow:
         fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked+.checkbox {
-    background-color: #404BBF;
+.checkbox-input:checked+.label-checkbox .checkbox {
+    background-color: #404bbf;
     border: none;
-    fill: #f4f4fd;
 }
-.checkbox-input:checked+.checkbox .checkbox-icon {
+
+.checkbox-input:checked+.label-checkbox .checkbox-icon {
     fill: #f4f4fd;
     opacity: 1;
 }
