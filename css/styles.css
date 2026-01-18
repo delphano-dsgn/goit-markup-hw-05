@@ -685,8 +685,9 @@ box-shadow:
 }
 
 .checkbox-input:checked+.checkbox {
-    border-color: #4d5ae5;
-    background-color: #4d5ae5;
+    background-color: #404BBF;
+    border: none;
+    fill: #f4f4fd;
 }
 .checkbox-input:checked+.checkbox .checkbox-icon {
     fill: #f4f4fd;
