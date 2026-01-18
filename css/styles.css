@@ -687,12 +687,13 @@ box-shadow:
 .checkbox-input:checked+.label-checkbox .checkbox {
     background-color: #404bbf;
     border: none;
+    fill: #f4f4fd;
 }
 
 .checkbox-input:checked+.label-checkbox .checkbox-icon {
-    fill: #f4f4fd;
     opacity: 1;
 }
+
 
 .checkbox-icon {
     fill: transparent;
