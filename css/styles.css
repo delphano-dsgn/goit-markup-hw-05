@@ -529,7 +529,7 @@ box-shadow:
     padding: 72px 24px 24px;
 }
 .backdrop:not(is-open) .modal {
-    transform: transform: translate(-50%, -50%) scale(1.5);
+    transform: translate(-50%, -50%) scale(1.5);
 }
 .modal-close-button {
     display: flex;
